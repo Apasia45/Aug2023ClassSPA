@@ -1,5 +1,5 @@
 import html from "html-literal";
 
-export default() => html`<header>
-<h1>Example SPA</h1>
+export default(state) => html`<header>
+<h1>${state.header}</h1>
 </header>`;
